@@ -1,0 +1,19 @@
+# IDE and OS files
+.idea/
+*.iml
+.DS_Store
+*.iws
+*.ipr
+
+# Secrets & Environment variables
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Build output & dependencies
+**/target/
+**/build/
+.mvn/wrapper/maven-wrapper.jar
+
+# Application uploads
+**/uploads/
