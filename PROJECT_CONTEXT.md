@@ -43,8 +43,8 @@ During this project, we will cover every foundational and advanced concept:
 ## 🚦 3. Implementation Progress Tracker
 
 ### 📊 Overall Status
-- **Current Phase**: **Phase 2 — Authentication & Authorization (Spring Security 6 + JWT) [Next Up]**
-- **Completion**: `[█░░░░░░░░░] 10%`
+- **Current Phase**: **Phase 3 — User & Profile Management [Next Up]**
+- **Completion**: `[██░░░░░░░░] 20%`
 
 ---
 
@@ -57,15 +57,15 @@ During this project, we will cover every foundational and advanced concept:
   - [x] Create `BaseEntity` with JPA auditing (`@CreatedDate`, `@LastModifiedDate`)
   - [x] Verify database connectivity and server startup (`mvn clean spring-boot:run`)
 
-- [ ] **Phase 2: Authentication & Authorization (Spring Security 6 + JWT)**
-  - [ ] Create `Role` enum (`ROLE_CANDIDATE`, `ROLE_RECRUITER`, `ROLE_ADMIN`)
-  - [ ] Create `User` entity and `UserRepository`
-  - [ ] Configure `BCryptPasswordEncoder` & `CustomUserDetailsService`
-  - [ ] Implement `JwtService` (token creation, validation, claim extraction)
-  - [ ] Implement `JwtAuthenticationFilter`
-  - [ ] Configure `SecurityFilterChain` in `SecurityConfig`
-  - [ ] Build `AuthService` and `AuthController` (`/api/auth/register`, `/api/auth/login`)
-  - [ ] Verify JWT issue and protected route access with cURL / Postman
+- [x] **Phase 2: Authentication & Authorization (Spring Security 6 + JWT)**
+  - [x] Create `Role` enum (`ROLE_CANDIDATE`, `ROLE_RECRUITER`, `ROLE_ADMIN`)
+  - [x] Create `User` entity and `UserRepository`
+  - [x] Configure `BCryptPasswordEncoder` & `CustomUserDetailsService`
+  - [x] Implement `JwtService` (token creation, validation, claim extraction)
+  - [x] Implement `JwtAuthenticationFilter`
+  - [x] Configure `SecurityFilterChain` in `SecurityConfig`
+  - [x] Build `AuthService` and `AuthController` (`/api/auth/register`, `/api/auth/login`)
+  - [x] Verify JWT issue and protected route access with cURL / Postman
 
 - [ ] **Phase 3: User & Profile Management**
   - [ ] Create `Profile` entity (`@OneToOne` with User)

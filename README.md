@@ -211,25 +211,6 @@ Once the application is running, open your browser to explore and test all REST 
 
 ---
 
-## 🗺️ Implementation Roadmap & Progress
-
-- [x] **Phase 1: Project Setup & Database Configuration**
-  - [x] Spring Boot 3.x initialized with JPA, Security, MySQL, Lombok
-  - [x] HikariCP Connection Pool & 12-factor `.env` configuration
-  - [x] Audited `BaseEntity` (`id`, `createdAt`, `updatedAt`) with `@EnableJpaAuditing`
-  - [x] Verified database connectivity and clean bootstrap
-- [ ] **Phase 2: Authentication & Authorization (Spring Security 6 + JWT)**
-- [ ] **Phase 3: User & Profile Management**
-- [ ] **Phase 4: Resume Management & Document Parsing (PDF/DOCX)**
-- [ ] **Phase 5: Job Posting & Dynamic Search Module (JPA Specifications)**
-- [ ] **Phase 6: Application Workflow & Atomic Tracking (@Transactional)**
-- [ ] **Phase 7: AI Job Matching & Gemini LLM Integration**
-- [ ] **Phase 8: Centralized Validation, Global Exception Handling & Logging**
-- [ ] **Phase 9: Swagger Documentation & Automated Testing (JUnit 5 / Mockito)**
-- [ ] **Phase 10: Production Readiness & System Design Notes**
-
----
-
 ## 👤 Author
 
 - **Yash Lalwani** — [GitHub (@lalwaniyash)](https://github.com/lalwaniyash)
