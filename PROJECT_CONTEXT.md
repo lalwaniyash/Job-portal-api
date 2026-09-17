@@ -43,8 +43,8 @@ During this project, we will cover every foundational and advanced concept:
 ## 🚦 3. Implementation Progress Tracker
 
 ### 📊 Overall Status
-- **Current Phase**: **Phase 4 — Resume Management & Document Parsing [Next Up]**
-- **Completion**: `[███░░░░░░░] 30%`
+- **Current Phase**: **Phase 5 — Job Posting & Advanced Search Module [Next Up]**
+- **Completion**: `[████░░░░░░] 40%`
 
 ---
 
@@ -73,12 +73,12 @@ During this project, we will cover every foundational and advanced concept:
   - [x] Build `UserController` & `ProfileController` (`/api/users/me`, `/api/users/me/profile`)
   - [x] Verify profile creation & update flows
 
-- [ ] **Phase 4: Resume Management & Document Parsing**
-  - [ ] Build `FileStorageService` (upload validation, sanitization, disk storage)
-  - [ ] Implement `DocumentParser` Strategy (PDFBox for PDF, POI for DOCX)
-  - [ ] Create `Resume` entity & `ResumeRepository`
-  - [ ] Implement `ResumeService` & `ResumeController` (`POST /api/resumes`, `GET /api/resumes/{id}`)
-  - [ ] Verify file upload & plain-text extraction
+- [x] **Phase 4: Resume Management & Document Parsing**
+  - [x] Build `FileStorageService` (upload validation, sanitization, disk storage)
+  - [x] Implement `DocumentParser` Strategy (PDFBox for PDF, POI for DOCX)
+  - [x] Create `Resume` entity & `ResumeRepository`
+  - [x] Implement `ResumeService` & `ResumeController` (`POST /api/resumes/upload`, `GET /api/resumes/my`, `GET /api/resumes/{id}`)
+  - [x] Verify file upload & plain-text extraction
 
 - [ ] **Phase 5: Job Posting & Advanced Search Module**
   - [ ] Create `EmploymentType`, `JobStatus` enums
