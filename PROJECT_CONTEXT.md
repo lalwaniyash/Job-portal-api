@@ -43,8 +43,8 @@ During this project, we will cover every foundational and advanced concept:
 ## 🚦 3. Implementation Progress Tracker
 
 ### 📊 Overall Status
-- **Current Phase**: **Phase 5 — Job Posting & Advanced Search Module [Next Up]**
-- **Completion**: `[████░░░░░░] 40%`
+- **Current Phase**: **Phase 6 — Application Workflow & Tracking [Next Up]**
+- **Completion**: `[█████░░░░░] 50%`
 
 ---
 
@@ -80,12 +80,12 @@ During this project, we will cover every foundational and advanced concept:
   - [x] Implement `ResumeService` & `ResumeController` (`POST /api/resumes/upload`, `GET /api/resumes/my`, `GET /api/resumes/{id}`)
   - [x] Verify file upload & plain-text extraction
 
-- [ ] **Phase 5: Job Posting & Advanced Search Module**
-  - [ ] Create `EmploymentType`, `JobStatus` enums
-  - [ ] Create `Job` entity & `JobRepository`
-  - [ ] Implement `JobSpecification` for dynamic multi-criteria filtering
-  - [ ] Build `JobService` and `JobController` (Recruiter CRUD + Public paginated search)
-  - [ ] Test filtering by keyword, location, skills, pagination & sorting
+- [x] **Phase 5: Job Posting & Advanced Search Module**
+  - [x] Create `EmploymentType`, `JobStatus` enums
+  - [x] Create `Job` entity & `JobRepository`
+  - [x] Implement `JobSpecification` for dynamic multi-criteria filtering
+  - [x] Build `JobService` and `JobController` (Recruiter CRUD + Public paginated search)
+  - [x] Test filtering by keyword, location, skills, pagination & sorting
 
 - [ ] **Phase 6: Application Workflow & Tracking**
   - [ ] Create `ApplicationStatus` enum
