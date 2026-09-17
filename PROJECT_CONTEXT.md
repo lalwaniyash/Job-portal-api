@@ -43,8 +43,8 @@ During this project, we will cover every foundational and advanced concept:
 ## 🚦 3. Implementation Progress Tracker
 
 ### 📊 Overall Status
-- **Current Phase**: **Phase 3 — User & Profile Management [Next Up]**
-- **Completion**: `[██░░░░░░░░] 20%`
+- **Current Phase**: **Phase 4 — Resume Management & Document Parsing [Next Up]**
+- **Completion**: `[███░░░░░░░] 30%`
 
 ---
 
@@ -67,11 +67,11 @@ During this project, we will cover every foundational and advanced concept:
   - [x] Build `AuthService` and `AuthController` (`/api/auth/register`, `/api/auth/login`)
   - [x] Verify JWT issue and protected route access with cURL / Postman
 
-- [ ] **Phase 3: User & Profile Management**
-  - [ ] Create `Profile` entity (`@OneToOne` with User)
-  - [ ] Implement `ProfileRepository` and `ProfileService`
-  - [ ] Build `UserController` & `ProfileController` (`/api/users/me`, `/api/users/me/profile`)
-  - [ ] Verify profile creation & update flows
+- [x] **Phase 3: User & Profile Management**
+  - [x] Create `Profile` entity (`@OneToOne` with User)
+  - [x] Implement `ProfileRepository` and `ProfileService`
+  - [x] Build `UserController` & `ProfileController` (`/api/users/me`, `/api/users/me/profile`)
+  - [x] Verify profile creation & update flows
 
 - [ ] **Phase 4: Resume Management & Document Parsing**
   - [ ] Build `FileStorageService` (upload validation, sanitization, disk storage)
