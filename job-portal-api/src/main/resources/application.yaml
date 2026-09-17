@@ -38,8 +38,8 @@ spring:
 # Custom Security & App Properties
 app:
   jwt:
-    # 256-bit Hex secret key
-    secret: ${JWT_SECRET:your_256_bit_hex_jwt_secret_key_here}
+    # 256-bit Hex secret key from environment variable
+    secret: ${JWT_SECRET}
     expiration-ms: ${JWT_EXPIRATION_MS:86400000} # 24 Hours
   upload:
     dir: ${UPLOAD_DIR:./uploads/resumes}

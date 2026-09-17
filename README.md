@@ -158,7 +158,7 @@ Edit `.env` with your actual database and API credentials:
 DB_USERNAME=root
 DB_PASSWORD=your_mysql_password
 
-# JWT Authentication Configuration
+# JWT Authentication Configuration (Generate with: openssl rand -hex 32)
 JWT_SECRET=your_256_bit_hex_jwt_secret_key_here
 JWT_EXPIRATION_MS=86400000
 
