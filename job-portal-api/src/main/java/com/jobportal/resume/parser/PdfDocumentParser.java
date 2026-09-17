@@ -1,0 +1,29 @@
+package com.jobportal.resume.parser;
+
+import org.apache.pdfbox.Loader;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.text.PDFTextStripper;
+import org.springframework.stereotype.Component;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+@Component
+public class PdfDocumentParser implements DocumentParser {
+
+    @Override
+    public String parse(InputStream inputStream) throws IOException {
+        byte[] bytes = inputStream.readAllBytes();
+        try (PDDocument document = Loader.loadPDF(bytes)) {
+            PDFTextStripper stripper = new PDFTextStripper();
+            String text = stripper.getText(document);
+            return text != null ? text.trim() : "";
+        }
+    }
+
+    @Override
+    public boolean supports(String contentType, String fileName) {
+        return (contentType != null && contentType.toLowerCase().contains("pdf"))
+                || (fileName != null && fileName.toLowerCase().endsWith(".pdf"));
+    }
+}
